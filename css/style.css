@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* normal section css start */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  font-size: 17px;
+  line-height: 28px;
+}
+
+.wraper {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.section-head {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  margin-top: 90px;
+  text-align: center;
+}
+
+/* normal section css end */
+
+/* Navigation section css start  */
+
+nav {
+  width: 100%;
+  height: 120px;
+  background-color: #10103a;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-bar-wraper {
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+
+.top-logo {
+  width: fit-content;
+  margin-right: auto;
+}
+
+.top-logo a {
+  color: #fff;
+  font-size: 32px;
+  text-decoration: none;
+  font-family: "Pacifico", sans-serif;
+}
+
+.nav-pages {
+  display: flex;
+  align-items: center;
+}
+
+.nav-pages a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-page {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.nav-page:hover {
+  background-color: #2f328d;
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+
+/* Navigation section css end */
+
+/* hero section css start */
+
+.hero-sec {
+  width: 100%;
+  min-height: 650px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #10103a;
+}
+
+.hero-sec-wraper {
+  display: flex;
+}
+
+.hero-info {
+  width: 460px;
+}
+
+.hero-info h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  padding-bottom: 25px;
+}
+
+.hero-info h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #fdd430;
+}
+
+.hero-info p {
+  padding: 40px 0;
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 110%;
+}
+
+.hero-info button {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  background: #fff;
+  padding: 13px 40px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.hero-info button:hover {
+  color: #fff;
+  background: #000;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.hero-img {
+  width: 660px;
+  overflow: hidden;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* hero section css end */
+
+/* hosting section css start */
+
+.hosting {
+  width: 100%;
+  min-height: 960px;
+  font-family: "Roboto", sans-serif;
+}
+
+.hosting-sec-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hosting img {
+  width: 540px;
+  height: auto;
+  margin-top: 60px;
+}
+
+.hosting p {
+  font-weight: 300;
+  text-align: center;
+  padding: 40px 50px;
+}
+
+.hosting button {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 15px 50px;
+  margin-top: 20px;
+}
+
+.hosting button:hover {
+  background-color: #0c0f38;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+/* hosting section css end */
+
+/* service section css start */
+
+#service {
+  width: 100%;
+  min-height: 1060px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #10103a;
+}
+
+.service-sec-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-detail {
+  width: 500px;
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.service-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.service-card {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 30px;
+}
+
+.service-card-icon-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-card-icon-box img {
+  width: 60px;
+  height: auto;
+}
+
+.service-card h3 {
+  font-size: 20px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.service-card p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.service-sec-wraper button {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 15px 50px;
+  margin: 40px 0;
+}
+
+/* service section css end */
+
+/* choose section css start */
+
+.choose {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+.choose-sec-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.choose-section-detail {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.choose-cards {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
+}
+
+.choose-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-card-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-radius: 40px;
+  box-shadow: rgb(221, 221, 221) 0px 0px 10px;
+}
+
+.choose-card-box img {
+  width: 100px;
+  height: 100px;
+}
+
+.choose-card-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+.choose-card-box p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.choose-card button {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  border: 0px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #000;
+  padding: 15px 50px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.choose-card button:hover {
+  background-color: blueviolet;
+  transition: 0.3s ease-in-out;
+}
+
+/* choose section css end */
+
+/* contact section css start */
+
+#contact {
+  background-color: #10103a;
+  font-family: "Poppins", sans-serif;
+}
+
+.white-bg {
+  width: 100%;
+  height: 280px;
+  background-color: #fff;
+}
+
+.contact-form {
+  width: 540px;
+  height: auto;
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top: -190px;
+  padding: 40px;
+  background-color: #10103a;
+}
+
+.contact-form form {
+  width: 100%;
+}
+
+.contact-form form input {
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 20px;
+  border: 0px;
+  border-radius: 25px;
+  outline: none;
+}
+
+.contact-form form textarea {
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 20px;
+  border: 0px;
+  border-radius: 25px;
+  outline: none;
+  resize: none;
+}
+
+.contact-form form input[type="submit"] {
+  width: 160px;
+  margin: 0 auto;
+  color: #ef5da9;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.contact-info h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.contact-info h2 {
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 30px 0px;
+  font-weight: 700;
+}
+
+.contact-info p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 30px;
+  text-align: center;
+  padding: 0 220px;
+  padding-bottom: 60px;
+}
+
+/* contact section css end */
+
+/* footer section css start */
+
+footer {
+  width: 100%;
+  padding: 20px;
+}
+
+footer p {
+  font-family: "Poppins", sans-serif;
+  color: #1e1e1e;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+/* footer section css end */
